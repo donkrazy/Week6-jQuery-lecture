@@ -6,7 +6,15 @@
 <script type="text/javascript">
 	$( function() {
 		/* 코드를 완성하세요 */
-
+		setTimeout( function() {
+			$( "strong, p" ).wrapAll( "<div>" );
+			$( "div" ).css( {
+				"border": "1px solid #aaa",
+				"padding": "10px" 
+			} );
+			
+			$( "div" ).css("border", "1px solid #aaa");
+		}, 2000 );
 		
 	} );  
 </script>
